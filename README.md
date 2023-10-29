@@ -1,40 +1,39 @@
 # RegressionAnalysisBot
 ## Description
 
-A Python bot designed to automate various tasks in regression analysis. This bot handles data preprocessing, fits linear, ridge, and lasso models, and offers insightful statistical interpretation and visualization.
+The Regression Analysis Bot is a Python-based application designed to automate the entire workflow of regression analysis. It takes care of data preprocessing, model training, results visualization, and statistical interpretation. The bot streamlines the data science workflow, providing actionable insights that are easy to understand and ready for reporting.
 
 ## Features
 
-- **Data Preprocessing**: Cleans and scales data, detects outliers.
-- **Model Fitting**: Supports Linear, Ridge, and Lasso regression models.
-- **Visualization**: Generates scatter plots, residual plots, and more.
-- **Statistical Interpretation**: Provides R-squared, adjusted R-squared, and F-statistic interpretation.
-- **Report Generation**: Exports analysis into a Word document.
+- **Automated Data Preprocessing**: Automatically handles data splitting, scaling, and one-hot encoding.
+- **Regression Model Training**: Supports Linear, Ridge, and Lasso regression models.
+- **Data Visualization**: Generates scatter plots and residual plots for model evaluation.
+- **Statistical Interpretation**: Provides an in-depth statistical interpretation of model performance, coefficients, and assumptions.
 
-## Installation
+## How to Use
 
-1. Clone this repository
-    ```
-    git clone https://github.com/spechter11/RegressionAnalysisBot.git
-    ```
-2. Navigate to the project directory and install required packages
-    ```
-    cd yourrepository
-    pip install -r requirements.txt
-    ```
+1. **Clone the Repository**:  
+    - Run `git clone https://github.com/spechter11/RegressionAnalysisBot.git`
 
-## Usage
+2. **Install Dependencies**:  
+    - Run `pip install -r requirements.txt`
 
-1. Modify the `config.json` file to specify your data and model parameters.
-2. Run the `main.py` script to start the analysis.
-    ```
-    python main.py
-    ```
+3. **Prepare Your Dataset**:  
+    - Place your dataset in the `data` folder. Make sure it's either in CSV or Excel format.
+
+4. **Configure the Bot**:  
+    - Open `config.yaml` and adjust the settings according to your dataset.
+
+5. **Run the Bot**:  
+    - Run `python main.py`
+
+6. **Check the Results**:  
+    - Open the generated Word document from the `reports` folder for the analysis.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests. Your feedback is very valuable!
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-MIT License. See `LICENSE` for more information.
+[MIT](https://choosealicense.com/licenses/mit/)
