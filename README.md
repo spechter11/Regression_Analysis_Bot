@@ -15,7 +15,7 @@ A Python bot designed to automate various tasks in regression analysis. This bot
 
 1. Clone this repository
     ```
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/spechter11/RegressionAnalysisBot.git
     ```
 2. Navigate to the project directory and install required packages
     ```
